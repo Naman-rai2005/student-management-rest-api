@@ -1,0 +1,9 @@
+[build]
+builder = "RAILPACK"
+buildCommand = "./mvnw clean package -DskipTests"
+
+[deploy]
+startCommand = "java -jar target/student-management-rest-api-*.jar"
+healthcheckPath = "/students"
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 3
