@@ -1,6 +1,6 @@
 # Student Management System | Spring Boot REST API
 
-![Java](https://img.shields.io/badge/Java-24-orange?style=for-the-badge&logo=openjdk)
+![Java](https://img.shields.io/badge/Java-21-orange?style=for-the-badge&logo=openjdk)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.4-6DB33F?style=for-the-badge&logo=springboot)
 ![Hibernate](https://img.shields.io/badge/Hibernate-ORM-59666C?style=for-the-badge&logo=hibernate)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql)
@@ -43,7 +43,7 @@ The application follows a **layered architecture** and demonstrates modern backe
 
 ### Backend
 
-- Java 24
+- Java 21
 - Spring Boot
 - Spring Data JPA
 - Hibernate
@@ -222,7 +222,7 @@ Follow these steps to set up and run the project on your local machine.
 
 Make sure the following software is installed before running the project:
 
-- Java 24 (JDK)
+- Java 21 (JDK)
 - Maven Wrapper
 - MySQL Server
 - Git
